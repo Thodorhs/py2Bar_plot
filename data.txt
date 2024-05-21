@@ -1,0 +1,17 @@
+name=Spark Reads
+group=PR
+337,379
+group=CC
+373,369
+group=LR
+1031,982
+group=LgR
+976,1033
+group=TR
+9,9
+group=SSSP
+275,270
+group=SVD
+154,156
+group=SVM
+227,2980
