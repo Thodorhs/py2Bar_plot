@@ -1,4 +1,3 @@
-name=Spark Reads
 group=PR
 337,379
 group=CC

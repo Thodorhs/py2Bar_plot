@@ -9,11 +9,11 @@ linewidth_2  = 0.6                          # Graphs line width
 edgewidth    = 1.2                          # Edge width
 edgecolor    = 'k'                          # Edgecolor = Black
 markersize   = 12                           # Marker size
-bar_width    = 0.5                          # Bar width
+bar_width    = 1.8                         # Bar width
 colors = ['#444444', '#888888', '#cccccc']  # Adjusted to three colors Black and white color palette
-dpi=450                                     # Quality of the plot (Dots Per Inches).
+dpi=600                                     # Quality of the plot (Dots Per Inches).
 
-workload_name_pos = 0                   # Lower the position of the workload names
-bbox_to_anchor = (0.5, 1)               # Legend position
-bar_names_loc = -120                         # Adjusted the position of the bar names
-group_spacing_factor = 0.25                 # Adjust this factor to control the spacing between groups
+workload_name_pos = -0.01                # Lower the position of the workload names
+bbox_to_anchor = (0.5, -0.27)               # Legend position
+bar_names_loc = -160                         # Adjusted the position of the bar names
+group_spacing_factor = 3.2                 # Adjust this factor to control the spacing between groups

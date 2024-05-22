@@ -7,7 +7,7 @@ Python script to generate bar plots for groups with two bars each: one for `loca
 
 ## Overview
 
-This script is designed to read data from a file, parse it, and generate a bar plot. Each group in the dataset will have two bars: one for `local` and one for `nvmeOF`.
+This script is designed to read data from a file, parse it, and generate a bar plot. Each group in the dataset will have two bars: one for `local` and one for `nvmeOF`. The script also saves the plot in pdf format ready for LaTex. 
 
 ## Script Configuration
 
@@ -37,7 +37,6 @@ The script uses a configuration file (`config.py`) to set various plot parameter
 The data file should contain information about the plot in a specific format. Below is a sample `data.txt` file:
 
 ```
-name=Spark Reads
 group=PR
 337,379
 group=CC
@@ -58,15 +57,14 @@ group=SVM
 
 ### Explanation
 
-- `name`: Title of the plot.
 - `group`: Name of each group.
 - The following lines contain two values for each group, corresponding to `local` and `nvmeOF`.
 
 ## Usage
 
-1. **Prepare your `data.txt` file** following the format described above.
+1. **Prepare your `data.txt` file** following the format described above. (you can optionaly chose diferent configuration from the `config.py`).
 
-2. **Run the script**:
-   ```bash
-   python3 plot_data.py
+2. **Run the script**: ```./run.sh ```
+
+3. The plot will be saved as `plot-crop.pdf` in the same directory.
 
